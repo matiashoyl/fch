@@ -1417,26 +1417,26 @@ a.btn-theme:focus{
 /*----------------------
 -----Contact Styles-----
 ------------------------*/
-#contact h3 {
+#contacto h3 {
     margin-bottom:20px;
 }
 
-#contact ul {
+#contacto ul {
     padding:0;
     margin:0 0 40px;
     list-style:none;
 }
 
-#contact ul li{
+#contacto ul li{
     margin:5px 0;
     list-style:none;
 }
 
-#contact ul li span{
+#contacto ul li span{
     margin-right:10px;
 }
 
-#contact ul li span [class*=fa]{
+#contacto ul li span [class*=fa]{
     color:#5AA9CE;
 }
 
@@ -1525,19 +1525,46 @@ a.btn-theme:focus{
     z-index:10;
 }
 
-.map-container {
-    position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
+.map {
+    position:relative;
+    left:-10%;
 }
 
-.map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+.map .spot {
+    display:inline-block;
+    position:absolute;
+    top:30%;
+    left:30%;
+    margin:-10px 0 0 -10px;
+    padding:7px;
+}
+
+.map .spot span{
+    display:block;
+    width:8px;
+    height:8px;
+    background:#5AA9CE;
+    border-radius:50%;
+}
+
+.map .spot span:after {
+    display:block;
+    content:"";
+    position:absolute;
+    top:7px;
+    left:7px;
+    width:8px;
+    height:8px;
+    border:1px solid #5AA9CE;
+    border-radius:50%;
+    opacity:1;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+.map .spot span:after {
+	-webkit-animation: scaling 2.2s linear infinite;
+	animation: scaling 2.2s ease-out infinite;
 }
 
 @-webkit-keyframes scaling {
@@ -2036,7 +2063,6 @@ a.btn-theme:focus{
 .contact-info {
     text-align:center;
     margin-top:60px;
-    height: 595px !important;
 }
 
 .map{
@@ -2095,13 +2121,13 @@ p {
     padding:7px 10px;
 }
 
-#contact .form-control {
+#contacto .form-control {
     height:58px;
     font-size:18px;
     line-height:24px;
 }
 
-#contact textarea.form-control {
+#contacto textarea.form-control {
     font-size:18px;
     line-height:24px;
 	padding-top:14px;
