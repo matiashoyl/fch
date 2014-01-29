@@ -114,6 +114,34 @@ $(document).ready(function() {
 		scrollSpyRefresh();
 		waypointsRefresh();
 	});
+
+	/*============================================
+	Nosotros Functions
+	==============================================*/
+	
+	$('#nosotros .collapse').on('show.bs.collapse', function () {
+		$(this).prev('.details-btn')
+			.find('.fa')
+			.removeClass('fa-plus')
+			.addClass('fa-minus');
+	});
+	
+	$('#nosotros .collapse').on('hide.bs.collapse', function () {
+		$(this).prev('.details-btn')
+			.find('.fa')
+			.removeClass('fa-minus')
+			.addClass('fa-plus');;
+	});
+	
+	$('#nosotros .collapse').on('shown.bs.collapse', function () {
+		scrollSpyRefresh();
+		waypointsRefresh();
+	});
+		
+	$('#nosotros .collapse').on('hidden.bs.collapse', function () {
+		scrollSpyRefresh();
+		waypointsRefresh();
+	});
 	
 	/*============================================
 	Project thumbs - Masonry
