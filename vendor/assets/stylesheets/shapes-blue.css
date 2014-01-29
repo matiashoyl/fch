@@ -1757,11 +1757,11 @@ a.btn-theme:focus{
 
 #main-footer p span{
     margin-right:10px;
-    color:#333;
-    font-size:16px;
+    color:#6e86c4;
+    font-size:20px;
     line-height:24px;
-    font-weight:700;
-    text-transform:uppercase;
+    font-weight:100;
+    letter-spacing: 0.02em;
 }
 
 #main-footer .right-col{
