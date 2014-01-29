@@ -49,8 +49,6 @@ end
 
 gem "font-awesome-rails"
 
-gem 'rails_12factor', group: :production
-
 gem 'rake', '~> 0.9.6'
 
 
