@@ -50,6 +50,7 @@ group :production do
   gem 'pg'
 end
 
+gem "font-awesome-rails"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
