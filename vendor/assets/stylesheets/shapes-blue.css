@@ -2082,7 +2082,7 @@ a.btn-theme:focus{
 }
 
 .jumbotron .header-logo{
-    width:50px;
+    margin-top: 50px;
 }
 
 .jumbotron .first-line p{
