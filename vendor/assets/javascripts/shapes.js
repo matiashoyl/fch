@@ -88,29 +88,29 @@ $(document).ready(function() {
 		},1000);
 	});		
 	/*============================================
-	About Functions
+	Equipo Functions
 	==============================================*/
 	
-	$('#about .collapse').on('show.bs.collapse', function () {
+	$('#equipo .collapse').on('show.bs.collapse', function () {
 		$(this).prev('.details-btn')
 			.find('.fa')
 			.removeClass('fa-plus')
 			.addClass('fa-minus');
 	});
 	
-	$('#about .collapse').on('hide.bs.collapse', function () {
+	$('#equipo .collapse').on('hide.bs.collapse', function () {
 		$(this).prev('.details-btn')
 			.find('.fa')
 			.removeClass('fa-minus')
 			.addClass('fa-plus');;
 	});
 	
-	$('#about .collapse').on('shown.bs.collapse', function () {
+	$('#equipo .collapse').on('shown.bs.collapse', function () {
 		scrollSpyRefresh();
 		waypointsRefresh();
 	});
 		
-	$('#about .collapse').on('hidden.bs.collapse', function () {
+	$('#equipo .collapse').on('hidden.bs.collapse', function () {
 		scrollSpyRefresh();
 		waypointsRefresh();
 	});
