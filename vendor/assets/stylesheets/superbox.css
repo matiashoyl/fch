@@ -22,7 +22,6 @@
 .superbox-show {
 	text-align:center;
 	position:relative;
-	background:#6e86c4;
 	width:100%;
     float:left;
 	padding:25px;
@@ -30,7 +29,7 @@
 }
 .superbox-current-img {
 	max-width:100%;
-	border:1px solid #3a5392;
+	border:3px solid #6e86c4;
 }
 .superbox-img:hover {
 	opacity:0.8;
