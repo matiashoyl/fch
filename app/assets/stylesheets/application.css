@@ -13,5 +13,6 @@
  *= require flexslider
  *= require font-awesome
  *= require shapes-blue
+ *= require superbox
  *= require_tree .
  */

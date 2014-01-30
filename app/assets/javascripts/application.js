@@ -25,4 +25,5 @@
 //= require shapes
 //= require twitterFetcher_v10_min
 //= require waypoints
+//= require superbox
 //= require_tree .

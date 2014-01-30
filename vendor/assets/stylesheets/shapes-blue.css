@@ -142,7 +142,7 @@ a:focus,
 
 .bg-transparent {
     background:transparent;
-    padding:60px 0 40px;
+    padding:40px 0 40px;
     border-top:60px solid rgba(255,255,255,0.3);
     border-bottom:60px solid rgba(255,255,255,0.3);
     color:#fff;
@@ -616,7 +616,7 @@ a.btn-theme:focus{
     text-align:center;
 }
 
-.video .fa-youtube-play {
+.video .fa-film {
     font-size:48px;
     margin-bottom:20px;
 }
