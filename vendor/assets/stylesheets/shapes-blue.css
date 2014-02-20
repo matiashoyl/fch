@@ -653,28 +653,21 @@ a.btn-theme:focus{
 /*-----------------------
 ------About Styles-------
 ------------------------*/
-#equipo .lead-member .member-title{
-    position:relative;
-    top:-20px;
+
+#equipo .member-title p{
+    color:#6e86c4;
+    font-size: 12px;
+    line-height:24px;
+    font-weight:100;
+    letter-spacing: 0.02em;
+}
+
+#equipo .member-title h4{
+    font-size:16px;
 }
 
 #equipo .member .img-wrapper{
     position:relative;
-}
-
-#equipo .member.lead-member img{
-    position:relative;
-    max-width:150%;
-    left:-25%;
-}
-
-#equipo .member .main-img,
-#equipo .member.lead-member .main-img{
-    position:relative;
-    z-index:2;
-    opacity:0;
-    -webkit-transition:opacity .5s ease-in;
-    transition:opacity .5s ease-in;
 }
 
 #equipo .member .shadow,
@@ -695,88 +688,6 @@ a.btn-theme:focus{
 #equipo .member:hover .shadow,
 #equipo .member.lead-member:hover .shadow{
     opacity:0;
-}
-
-#equipo .details-btn {
-    margin-top:20px;
-    display:inline-block;
-    position:relative;
-    top:15px;
-    color:#6e86c4;
-    text-decoration:none;
-    font-size:28px;
-    line-height:28px;
-    z-index:1;
-}
-
-#equipo .details-btn [class*=fa]{
-    width:30px;
-    height:30px;
-    font-size:18px;
-    line-height:30px;
-    background:#fff;
-    border:1px solid #6e86c4;
-    border-radius:50%;
-}
-
-#equipo .details-btn span{
-    margin-left:10px;
-    vertical-align:bottom;
-    color:#777;
-    text-decoration:none;
-    font-size:24px;
-    line-height:30px;
-    font-weight:100;
-}
-
-#equipo .details-btn:hover {
-    text-decoration:none;
-    font-size:28px;
-}
-
-#equipo .member-details{
-    margin:0;
-    padding:30px;
-    background:#fafafa;
-    border:1px solid #f5f5f5;
-    border-radius:3px;
-}
-
-#equipo .member-details p {
-    text-align:left;
-    color:#999;
-    font-size:15px;
-}
-
-#equipo .member-socials {
-    list-style:none;
-    text-align:center;
-    margin:0;
-    padding:0;
-}
-
-#equipo .member-socials li {
-    display:inline;
-    margin:0 2px;
-}
-
-#equipo .member-socials li a{
-    display:inline-block;
-    padding:0;
-    background:#fff;
-    width:50px;
-    height:50px;
-    font-size:24px;
-    line-height:50px;
-    color:#6e86c4;
-    border-radius:50%;
-    -webkit-transition:all .3s ease-out;
-    transition:all .3s ease-out;
-}
-
-#equipo .member-socials li a:hover{
-    background:#6e86c4;
-    color:#fff;
 }
 
 /*----------------------
@@ -2046,6 +1957,12 @@ a.btn-theme:focus{
 
 #about .member{
     margin-bottom:70px;
+}
+
+.col-centered{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .member .shadow {
