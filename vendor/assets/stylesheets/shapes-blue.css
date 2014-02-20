@@ -853,6 +853,10 @@ a.btn-theme:focus{
     color:#6e86c4;
 }
 
+.newline b {
+    font-weight: 200;
+}
+
 .masonry,
 .masonry .masonry-brick {
   -webkit-transition-duration: 0.7s;
